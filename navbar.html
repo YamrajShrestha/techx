@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 1900px;
+      }
+      header {
+        background: green;
+        padding: 25px 100px 100px 100px;
+        transition: all 0.5s ease;
+      }
+      .new {
+        position: fixed;
+        width: 100%;
+        background: red;
+        padding: 25px 100px 40px 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <header></header>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 250) {
+            $("header").addClass("new");
+          } else {
+            $("header").removeClass("new");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
