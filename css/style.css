@@ -7,30 +7,11 @@
   --ultramarine: #4b00e0;
   --dark-orange: #ff8c00;
 
-  --gold-web-golden: hsl(50, 95%, 56%);
-  --spanish-orange: hsl(24, 100%, 45%);
-  --persian-green: hsl(175, 80%, 33%);
-  --granite-gray: hsl(0, 0%, 40%);
-  --smoky-black: hsl(0, 0%, 7%);
-  --cultured-1: hsl(0, 0%, 98%);
-  --cultured-2: hsl(0, 0%, 95%);
-  --cultured-3: hsl(0, 0%, 94%);
-  --light-gray: hsl(0, 0%, 80%);
-  --alice-blue: hsl(206, 89%, 93%);
-  --white_50: hsla(0, 0%, 100%, 0.5);
-  --white-1: hsl(0, 0%, 100%);
-  --white-2: hsl(0, 0%, 99%);
-  --black: hsl(0, 0%, 0%);
-
   --ff-spartan: "League Spartan", sans-serif;
 
   --shadow-1: 0 2px 25px hsla(0, 0%, 0%, 0.1);
-  --shadow-2: 0 8px 14px hsla(0, 0%, 0%, 0.1);
-  --shadow-3: 0 14px 30px hsla(0, 0%, 0%, 0.05);
 
   --transition-1: 0.25s ease;
-  --transition-2: 0.5s ease;
-  --cubic-out: cubic-bezier(0.33, 0.85, 0.4, 0.96);
 }
 
 /* RESET  */
